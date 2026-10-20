@@ -262,32 +262,6 @@ Aap is repository ko directly clone karke kisi bhi naye app project me as a stan
 
 ---
 
-## 5. How to Push This Project to GitHub
-
-Apne computer par terminal ya command prompt kholein aur is directory me aakar yeh simple commands run karein:
-
-```bash
-# 1. Git initialize karein (agar pehle se nahi hai)
-git init
-
-# 2. Saari files stage karein
-git add .
-
-# 3. Pehla commit banayein
-git commit -m "feat: complete app development documentation guide and templates"
-
-# 4. Default branch main set karein
-git branch -M main
-
-# 5. Apna GitHub remote repository link add karein
-# (Apne GitHub profile par jaakar ek new empty repo banayein aur uska URL yahan dalein)
-git remote add origin https://github.com/<YOUR-USERNAME>/<YOUR-REPO-NAME>.git
-
-# 6. GitHub par code push karein!
-git push -u origin main
-```
-
----
 
 ## 💡 Pro Tips for Software Documentation
 
